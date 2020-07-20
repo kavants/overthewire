@@ -3,7 +3,7 @@
 spawn ssh -l bandit5 -p 2220 bandit.labs.overthewire.org
 expect {
     "*yes/no*" { send "yes\r" ; exp_continue }
-    "*assword:" { send "DXjZPULLxYr17uwoI01bNLQbtFemEgo7\r" ; }
+    "*assword:" { send "koReBOKuIDDepwhWk7jZC0RTdopnAYKh\r" ; }
 }
 
 expect "*\$ "
