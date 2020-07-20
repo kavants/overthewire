@@ -5,12 +5,15 @@ expect {
     "*yes/no*" { send "yes\r" ; exp_continue }
     "*assword:" { send "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK\r" ; }
 }
-expect "*\$ "
 
+expect "*\$ "
+send "cd inhere\r"
+
+expect "*\$ "
 send "ls -a\r"
-expect "*\$ "
 
-send "cat .hidden"
 expect "*\$ "
+send "cat .hidden\r"
 
+expect "*\$ "
 send "exit\r"
