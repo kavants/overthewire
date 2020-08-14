@@ -14,4 +14,5 @@ For more information, see the man page <a href="https://linux.die.net/man/1/expe
 The scripts are not 100% straight forward and include the steps one would logically take to get to the answer. For example, there are instances where I would need to cat
 a file to get information. Of course, after the fact I would know the contents and could optimize the script a little better but I thought it was important to leave these in.
 
-I"ve decided to add comments to the scripts to detail my solutions and explain what the script is doing. If you're seeing this, I'm not done yet. :)
+After completing an especially challenging one, I"ve decided to add comments to the scripts to detail my solutions and explain what the script is doing. 
+If you're seeing this, I'm not done yet. :)
