@@ -1,5 +1,7 @@
 #!/usr/bin/expect -f
 
+
+#used to ssh and login
 spawn ssh -l bandit1 -p 2220 bandit.labs.overthewire.org
 expect {
     "*yes/no*" { send "yes\r" ; exp_continue }
@@ -7,6 +9,7 @@ expect {
 }
 expect "*\$ "
 
+#display contents of a file named -
 send "cat ./-\r"
 expect "*\$ "
 
